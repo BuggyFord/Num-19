@@ -41,6 +41,13 @@ Me
 ## Questions
 
 
-
 If you have any questions about the repo, open an issue or contact me directly at tylerjess.johnson@gmail.com. You can find more of my work at [BuggyFord](https://github.com/BuggyFord/).
 
+## Source
+
+I used the mini project from the activities folder from sprint 19, as well as had help from my Tutor from the tutor service provided by BCS Erik Hoversten.
+
+## Deployed Heroku URL
+
+ https://shielded-crag-21090-08b3f3cf5127.herokuapp.com/ deployed to Heroku
+ 
