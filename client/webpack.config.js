@@ -13,8 +13,8 @@ module.exports = () => {
     entry: {
       main: './src/js/index.js',
       install: './src/js/install.js',
-      editor: './src/js/editor.js',
-      header: './src/js/header.js'
+     // editor: './src/js/editor.js',
+     // header: './src/js/header.js'
     },
     output: {
       filename: '[name].bundle.js',
@@ -29,9 +29,8 @@ module.exports = () => {
 
       //Injects our custom service worker
       new InjectManifest({
-        fingerprints: false,
-        inject: true,
-        name: '...'
+        swSrc: './src-sw.js',
+        swDest: 'src-sw.js'
       }),
 
       //Create a manifest.json File.
@@ -43,8 +42,8 @@ module.exports = () => {
         description: 'A text editor PWA',
         background_color: '#225ca3',
         theme_color: '#225ca3',
-        start_url: './',
-        publicPath: './',
+        start_url: '/',
+        publicPath: '/',
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
